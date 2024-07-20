@@ -4,7 +4,7 @@ from copy import deepcopy
 from typing import List
 
 # List of characters that sudoku can use
-AVAILABLE_CHARS = list("123456789ABCEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz?&!%")
+AVAILABLE_CHARS = list("123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz?&!")
 
 # Exceptions
 class RequestOutOfBounds(Exception):
